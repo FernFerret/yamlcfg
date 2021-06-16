@@ -1,0 +1,14 @@
+columns:
+  - key: hostname
+  - key: mac
+  - key: os
+    width: 50
+  - key: ram
+    width: 30
+    fmt: "%d"
+  - key: cpu
+    width: 20
+    visible: false
+    fmt: "%.2f"
+params:
+  foo: "test"
